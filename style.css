@@ -72,3 +72,16 @@ main ul li {
     justify-content: center;
     align-items: center;
 }
+
+footer{
+
+}
+
+footer p {
+background-color: #f76c6c;
+height: 3rem;
+margin-bottom: 0rem;
+display: flex;
+justify-content: left;
+align-items: center;
+}
