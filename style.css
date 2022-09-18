@@ -47,7 +47,7 @@ h1{
 
 main{
     background-color: rgb(241, 239, 239); 
-
+    height: 30rem;
 }
 
 main p {
@@ -61,8 +61,9 @@ main UL {
 display: grid;
 grid-template-columns: repeat(2, 250px);
 grid-template-rows: repeat(2, 60px);
-gap: 10px;
+gap: 13px;
 list-style-type: none;
+font-weight: bold;
 
 }
 
@@ -71,10 +72,8 @@ main ul li {
     background-color: white;
     justify-content: center;
     align-items: center;
-}
-
-footer{
-
+    border-radius: 10px;
+    box-shadow: -5px 6px rgb(0 0 0 / 5%);
 }
 
 footer p {
