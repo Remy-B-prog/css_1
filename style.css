@@ -1,11 +1,16 @@
 
+
 *{
     box-sizing: border-box;
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
 }
 
 body{
     margin: none;
-    width: 600px;
+    line-height: 1.5;
+    font-family: Verdana;
+    width: 1000px;
 }
 
 nav{
@@ -16,17 +21,37 @@ nav{
 nav ul{
 display: flex;
 list-style-type: none;
-margin-top: none;
+padding-inline-start: 4px;
 }
 
 nav li {
-margin-left: 10px;
+margin-right: 0.5rem;
 margin-right: none;
 }
 
+header{
+    height: 200px;
+    background-image: url("assets/pictures_of_a_cat.jpg");
+    background-size: cover;
+}
 h1{
     display: flex;
     justify-content: center;
-    color: black;
-    flex-wrap: wrap;
+    color:white;
+}
+
+main{
+    background-color: rgb(241, 239, 239);
+}
+
+main p {
+    max-width: 65ch;
+}
+section{
+    margin-inline-start: 9rem;
+}
+
+main UL {
+display: grid;
+
 }
