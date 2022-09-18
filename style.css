@@ -1,0 +1,32 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: none;
+    width: 600px;
+}
+
+nav{
+    color:white;
+    background-color: #f76c6c;
+}
+
+nav ul{
+display: flex;
+list-style-type: none;
+margin-top: none;
+}
+
+nav li {
+margin-left: 10px;
+margin-right: none;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: black;
+    flex-wrap: wrap;
+}
