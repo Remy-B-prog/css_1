@@ -2,8 +2,11 @@
 
 *{
     box-sizing: border-box;
-    margin-block-start: 0rem;
-    margin-block-end: 0rem;
+    margin-block-start: 0rem; 
+}
+
+header{
+    margin-block-end: 0rem; 
 }
 
 body{
@@ -11,6 +14,7 @@ body{
     line-height: 1.5;
     font-family: Verdana;
     width: 1000px;
+    margin: 0rem;
 }
 
 nav{
@@ -22,6 +26,7 @@ nav ul{
 display: flex;
 list-style-type: none;
 padding-inline-start: 4px;
+margin-block-end: 0rem;
 }
 
 nav li {
@@ -41,7 +46,8 @@ h1{
 }
 
 main{
-    background-color: rgb(241, 239, 239);
+    background-color: rgb(241, 239, 239); 
+
 }
 
 main p {
@@ -53,5 +59,16 @@ section{
 
 main UL {
 display: grid;
+grid-template-columns: repeat(2, 250px);
+grid-template-rows: repeat(2, 60px);
+gap: 10px;
+list-style-type: none;
 
+}
+
+main ul li {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
 }
